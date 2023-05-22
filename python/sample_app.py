@@ -9,7 +9,7 @@ def main():
 
 @sample.route("/cakes")
 def test():
-	return redirect("https://sentry.io/", code=302)
+	return redirect("cakes", code=302)
 
 if __name__ == "__main__":
 	sample.run(host="0.0.0.0", port=3000)
